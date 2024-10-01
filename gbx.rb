@@ -5,20 +5,20 @@
 class Gbx < Formula
   desc ""
   homepage ""
-  version "0.1.3"
+  version "0.1.5"
 
   on_macos do
     on_intel do
-      url "https://github.com/globalblackbox/gbx/releases/download/v0.1.3/gbx_0.1.3_darwin_amd64.tar.gz"
-      sha256 "25ad6839dd0a83d147504d54812bb925f50bd89992d70c725651887f9945b24d"
+      url "https://github.com/globalblackbox/gbx/releases/download/v0.1.5/gbx_0.1.5_darwin_amd64.tar.gz"
+      sha256 "161c891362ffe0d9e5be2b8c92aa0aefd3d42580356e38b230051e1ffdec5d6c"
 
       def install
         bin.install "gbx"
       end
     end
     on_arm do
-      url "https://github.com/globalblackbox/gbx/releases/download/v0.1.3/gbx_0.1.3_darwin_arm64.tar.gz"
-      sha256 "eb6837687bf984b31008af646cd6f468f960273299d6db34c09942156cb3049d"
+      url "https://github.com/globalblackbox/gbx/releases/download/v0.1.5/gbx_0.1.5_darwin_arm64.tar.gz"
+      sha256 "fe16d537bc2472b6c47a8c189cb5765164bd57b4fde0ed1ba1c6ff8e52374a6f"
 
       def install
         bin.install "gbx"
@@ -29,8 +29,8 @@ class Gbx < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/globalblackbox/gbx/releases/download/v0.1.3/gbx_0.1.3_linux_amd64.tar.gz"
-        sha256 "0ba1f3beeefc9caf04bd6f3fdf54d38c79aa238a0a2606148295971d349dbe38"
+        url "https://github.com/globalblackbox/gbx/releases/download/v0.1.5/gbx_0.1.5_linux_amd64.tar.gz"
+        sha256 "5fc321b54831467bfde1a715a9184734c129a45c43a95b09270a2b4d3bb0699a"
 
         def install
           bin.install "gbx"
@@ -39,8 +39,8 @@ class Gbx < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/globalblackbox/gbx/releases/download/v0.1.3/gbx_0.1.3_linux_arm64.tar.gz"
-        sha256 "dd75c8572fa0def8d6efabc100573a336370bbf49fe13e3807d1897a3c5e16fe"
+        url "https://github.com/globalblackbox/gbx/releases/download/v0.1.5/gbx_0.1.5_linux_arm64.tar.gz"
+        sha256 "a252e58744f3b8aeebfb19a3a1daac95635fddb88d8aefff1dbf082f6a13f1f9"
 
         def install
           bin.install "gbx"
